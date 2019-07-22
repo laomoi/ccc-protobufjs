@@ -72,3 +72,11 @@ var object = AwesomeMessage.toObject(message, {
 });
 
 ```
+
+### 四. 关于uint64:
+
+js跟lua一样是使用double保存数字的，也就是js本身是不支持uint64的，probobuf在编码转码过程中使用了long.js的自定义类型Long来处理大数字, 为了方便使用， 我们项目里`统一使用字符串来表示uint64数字`, 
+
+在编码成Message的时候，使用Long.fromString()把字符串转成long, 
+
+在解码Message的时候， toObject(message, {longs:String})  会把long转回来string
