@@ -3,14 +3,16 @@
 
 为了支持在ccc中使用protobufjs, 需要下载以下3个JS，进行合并。
 
-https://github.com/protobufjs/protobuf.js
+https://github.com/protobufjs/protobuf.js  
 
 https://github.com/protobufjs/bytebuffer.js
 
 https://travis-ci.org/dcodeIO/long.js
 
 
-合并完成为一个protobuf_all.js。
+合并完成为一个protobuf_all.js
+
+(目前使用的protobufjs版本为6.8.8)
 
 
 ### 二. 安装说明:
