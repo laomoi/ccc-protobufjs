@@ -7,7 +7,7 @@ https://github.com/protobufjs/protobuf.js
 
 https://github.com/protobufjs/bytebuffer.js
 
-https://travis-ci.org/dcodeIO/long.js
+https://github.com/dcodeIO/long.js
 
 
 合并完成为一个protobuf_all.js
